@@ -68,10 +68,6 @@ def remove_pairs(l):
 
      Precondition: elements of l are cards represented as strings described above
 
-     Testing:
-     Note that for the individual calls below, the function should
-     return the displayed list but not necessarily in the order given in the examples.
-
      >>> remove_pairs(['9♠', '5♠', 'K♢', 'A♣', 'K♣', 'K♡', '2♠', 'Q♠', 'K♠', 'Q♢', 'J♠', 'A♡', '4♣', '5♣', '7♡', 'A♠', '10♣', 'Q♡', '8♡', '9♢', '10♢', 'J♡', '10♡', 'J♣', '3♡'])
      ['10♣', '2♠', '3♡', '4♣', '7♡', '8♡', 'A♣', 'J♣', 'Q♢']
      >>> remove_pairs(['10♣', '2♣', '5♢', '6♣', '9♣', 'A♢', '10♢'])
@@ -126,7 +122,7 @@ def get_valid_input(n):
 
 def play_game():
      '''()->None
-     This function plays the game'''
+     The function that plays the game.'''
     
      deck=make_deck()
      shuffle_deck(deck)
