@@ -1,7 +1,3 @@
-# In this implementation a card (that is not a 10) is represented
-# by a 2 character string, where the 1st character represents a rank and the 2nd a suit.
-# Each card of rank 10 is represented as a 3 character string, first two are the rank and the 3rd is a suit.
-
 import random
 
 def wait_for_player():
